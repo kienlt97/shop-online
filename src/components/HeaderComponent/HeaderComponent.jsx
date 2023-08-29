@@ -21,8 +21,6 @@ const HeaderComponent = () => {
                         placeholder="input search text"
                         size = "large"
                         textButton = "Tìm kiếm"
-                        // suffix={suffix}
-                        // onSearch={onSearch}
                     />
                 </Col>
                 <Col span={6} style={{ display: 'flex', gap:'20px', alignItems:'center'}}>
