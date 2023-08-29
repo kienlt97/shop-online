@@ -1,7 +1,7 @@
 import React from 'react'
 import {Col } from  'antd'
 import {WrapperHeader, WrapperHeaderAccount, WrapperTextHeader, WrapperTextHeaderSmall} from "./style";
-import Search from "antd/es/input/Search";
+
 import {
     UserOutlined,
     CaretDownOutlined,

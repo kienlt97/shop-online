@@ -1,7 +1,6 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import {routes} from './routes'
-import HeaderComponent from "./components/HeaderComponent/HeaderComponent";
 import React, {Fragment} from "react";
 import DefaultComponent from "./components/DefaultComponent/DefaultComponent";
 
