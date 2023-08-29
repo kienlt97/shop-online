@@ -8,6 +8,8 @@ import silder3 from '../../assets/images/slider3.jpg'
 import silder4 from '../../assets/images/slider4.png'
 import silder5 from '../../assets/images/slider5.png'
 import CardComponent from '../../components/CardComponent/CardComponent'
+import NavBarComponent from '../../components/NavBarComponent/NavBarComponent'
+import ButtonComponent from '../../components/ButtonComponent/ButtonComponent'
 
 const HomePage = () => {
     const arr = ['TV', 'Tu Lanh', 'LapTop']
@@ -26,7 +28,12 @@ const HomePage = () => {
                 <SliderComponet arrImages={[silder1, silder2, silder3, silder4, silder5]}/> 
                 <div style={{ marginTop: '20px', display:'flex', alignItems: 'center', gap: '20px'}}>
                     <CardComponent/>
+                    <CardComponent/>
+                    <CardComponent/>
+                    <CardComponent/>
                 </div>
+                <ButtonComponent textButton="Xem thêm" type="outline"/>
+                <NavBarComponent/>
             </div>
         </>
     )
