@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TypeProduct = ({name}) => {
+const TypeProduct = ({ name }) => {
   return (
     <div>{name}</div>
   )
