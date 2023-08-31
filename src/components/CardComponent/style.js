@@ -47,3 +47,9 @@ export const WrapperImageStyle = styled.img`
     width: 68px !important;
     height: 14px !important;
 `
+
+export const WrapperStyleTextSell = styled.span`
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    line-height: 24px;
+`

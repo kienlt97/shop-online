@@ -5,7 +5,8 @@ import Ip2 from '../../assets/images/Ip14-2.png'
 import Ip3 from '../../assets/images/Ip14-3.jpg'
 import Ip4 from '../../assets/images/Ip14-4.jpg'
 import Ip5 from '../../assets/images/Ip14-5.jpg'
-import { WrapperStyleColImage, WrapperStyleImage } from './style'
+import { WrapperStyleColImage, WrapperStyleImage, WrapperStyleNameProduct, WrapperStylePriceTextProduct, WrapperStyleTextSell } from './style'
+import { StarFilled } from '@ant-design/icons'
 
 const ProductDetailComponent = () => {
   return (
@@ -39,7 +40,19 @@ const ProductDetailComponent = () => {
 
         </Row>
       </Col>
-      <Col span={14}>14</Col>
+      <Col span={14}>
+        <WrapperStyleNameProduct>Apple iPhone 14 Pro</WrapperStyleNameProduct>
+        <div>
+          <StarFilled style={{ fontSize: '12px', color: 'rgb(253, 216, 54)' }} />
+          <StarFilled style={{ fontSize: '12px', color: 'rgb(253, 216, 54)' }} />
+          <StarFilled style={{ fontSize: '12px', color: 'rgb(253, 216, 54)' }} />
+          <StarFilled style={{ fontSize: '12px', color: 'rgb(253, 216, 54)' }} />
+          <WrapperStyleTextSell> ! Da ban 100+</WrapperStyleTextSell>
+        </div>
+        <WrapperStylePriceTextProduct>
+            <WrapperStylePriceTextProduct>200.000.000</WrapperStylePriceTextProduct>
+        </WrapperStylePriceTextProduct>
+      </Col>
     </Row>
   )
 }
